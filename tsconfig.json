@@ -15,7 +15,18 @@
 		"noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
 		"noUnusedLocals": true /* Enable error reporting when local variables aren't read. */,
 		"paths": {
-			"~/src/*": ["./src/*"]
+			"~/src/*": [
+				"./src/*"
+			],
+			"@constants": [
+				"./src/constants.ts"
+			],
+			"@setup/*": [
+				"./src/setup/*"
+			],
+			"@utilities/*": [
+				"./src/utilities/*"
+			]
 		} /* Specify a set of entries that re-map imports to additional lookup locations. */,
 		"plugins": [
 			/* https://www.typescriptlang.org/tsconfig/#plugins */
